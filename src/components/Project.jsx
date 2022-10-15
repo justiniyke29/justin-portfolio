@@ -1,6 +1,6 @@
 import React from 'react'
-import proimg from "../../public/project-2.png"
-import proimg2 from "../../public/Project-1.png"
+import proimg from "../assets/project-2.png"
+import proimg2 from "../assets/Project-1.png"
 
 const Project = () => {
   return (
