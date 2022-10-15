@@ -12,7 +12,7 @@ const Project = () => {
     </div>
     <div className='flex flex-col justify-center items-center w-full h-full'>
       <a href='https://justiniyke-shoppingmall.vercel.app' target="_blank" rel="noreferrer">
-      <img  className='w-60 mx-auto' src={proimg2} alt='projectimage' />
+      <img  className='w-60 mx-auto' src={proimg2} alt='projectimage22' />
       </a>
     </div>
     </div>
