@@ -4,13 +4,17 @@ import proimg2 from "../../public/Project-1.png"
 
 const Project = () => {
   return (
-    <div className='w-full h-screen bg-[#0a192f] text-gray-300'>
-      <a href='https://justiniyke-shoppingmall.vercel.app' target="_blank">
-      <img className='project-img' src={proimg} alt='projectimage' />
+    <div className='w-full h-screen text-gray-300'>
+    <div className='flex flex-col justify-center items-center w-full h-full'>
+      <a href='https://justiniyke-shoppingmall.vercel.app' target="_blank" rel="noreferrer">
+      <img  className='w-60 mx-auto' src={proimg} alt='projectimage' />
       </a>
-      <a href='https://justiniyke-shoppingmall.vercel.app' target="_blank">
-      <img className='project-img' src={proimg2} alt='projectimage' />
+    </div>
+    <div className='flex flex-col justify-center items-center w-full h-full'>
+      <a href='https://justiniyke-shoppingmall.vercel.app' target="_blank" rel="noreferrer">
+      <img  className='w-60 mx-auto' src={proimg2} alt='projectimage' />
       </a>
+    </div>
     </div>
   )
 }
