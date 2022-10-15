@@ -10,7 +10,7 @@ const Project = () => {
       <p className='text-gray-300 py-4'>Ecommerce website</p>
     <div className='flex flex-col justify-center items-center w-full h-full'>
       <a href='https://justiniyke-shoppingmall.vercel.app' target="_blank" rel="noreferrer">
-      <img  className='w-400 h-300' src={proimg} alt='projectimage' />
+      <img  className='w-400 mx-auto' src={proimg} alt='projectimage' />
       </a>
     </div>
     </div>
